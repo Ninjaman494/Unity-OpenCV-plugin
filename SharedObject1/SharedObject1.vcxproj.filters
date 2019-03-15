@@ -2,9 +2,11 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="SharedObject1.cpp" />
+    <ClCompile Include="HandTracking.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SharedObject1.h" />
     <ClInclude Include="pch.h" />
+    <ClInclude Include="HandTracking.h" />
   </ItemGroup>
 </Project>

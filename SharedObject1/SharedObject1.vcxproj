@@ -173,9 +173,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="HandTracking.cpp" />
     <ClCompile Include="SharedObject1.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="HandTracking.h" />
     <ClInclude Include="SharedObject1.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>

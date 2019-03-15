@@ -15,5 +15,11 @@ extern "C"
 		int sendRawImageBytes(Color32* data, int width, int height);
 
 		void getRawImageBytes(unsigned char* data, int width, int height);
+
+		void setFrameToSend(cv::Mat frame);
+
+		cv::Mat getCurrentFrame();
+
+		void getSentFrame(unsigned char* data, int width, int height);
 	}
 }
